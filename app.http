@@ -1,0 +1,8 @@
+####
+# add task
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "description": "Buy groceries"
+}
